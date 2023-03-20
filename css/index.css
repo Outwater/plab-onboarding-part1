@@ -1,1 +1,12 @@
+@import './page/index.css';
 @import './common/index.css';
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  overflow-y: scroll;
+  height: 100%;
+  min-height: 100vh;
+
+  background-color: #eee;
+}

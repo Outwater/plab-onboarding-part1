@@ -1,0 +1,10 @@
+.l-match-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.l-match-list__match-item {
+  padding: 16px 20px;
+  display: flex;
+  justify-content: space-between;
+}
