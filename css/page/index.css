@@ -1,8 +1,8 @@
 @import './match.css';
 
 .page {
-  padding: 20px 0;
   margin: 0 auto;
+  padding: 20px 0;
   width: 100%;
   min-width: 320px;
   max-width: 768px;
