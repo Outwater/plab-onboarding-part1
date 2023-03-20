@@ -1,6 +1,14 @@
 @import './page/index.css';
 @import './common/index.css';
 
+:root {
+  --pf-primary-bg-color: 217, 92%;
+
+  --primary: hsla(var(--pf-primary-bg-color), 50%, 100%);
+  --primary-hover: hsla(var(--pf-primary-bg-color), 40%, 100%);
+  --primary-focus: hsla(var(--pf-primary-bg-color), 30%, 100%);
+}
+
 body {
   margin: 0;
   box-sizing: border-box;

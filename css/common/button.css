@@ -41,17 +41,17 @@
 }
 
 .c-button--primary {
-  background-color: #1570ff;
+  background-color: var(--primary);
   color: #fff;
 }
 .c-button--primary:hover {
-  background-color: #146df7;
+  background-color: var(--primary-hover);
 }
 .c-button--primary:active {
-  background-color: #1469f0;
+  background-color: var(--primary-focus);
 }
 .c-button--primary:focus {
-  background-color: #1469f0;
+  background-color: var(--primary-focus);
 }
 
 .c-button--secondary {
