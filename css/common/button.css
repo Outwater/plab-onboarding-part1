@@ -1,0 +1,97 @@
+.c-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 36px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+
+  cursor: pointer;
+}
+
+.c-button--x-large {
+  height: 56px;
+  border-radius: 12px;
+  font-size: 16px;
+  line-height: 19.2px;
+}
+
+.c-button--large {
+  height: 48px;
+  border-radius: 8px;
+  font-size: 14px;
+  line-height: 16.8px;
+}
+
+.c-button--medium {
+  height: 36px;
+  border-radius: 8px;
+  font-size: 14px;
+  line-height: 16.8px;
+}
+
+.c-button--small {
+  height: 24px;
+  border-radius: 4px;
+  font-size: 12px;
+  line-height: 14.4px;
+}
+
+.c-button--primary {
+  background-color: #1570ff;
+  color: #fff;
+}
+.c-button--primary:hover {
+  background-color: #146df7;
+}
+.c-button--primary:active {
+  background-color: #1469f0;
+}
+.c-button--primary:focus {
+  background-color: #1469f0;
+}
+
+.c-button--secondary {
+  background-color: #f2f5f7;
+  color: #4b5a64;
+}
+.c-button--secondary:hover {
+  background-color: #e6e9eb;
+}
+.c-button--secondary:active {
+  background-color: #d9dcde;
+}
+.c-button--secondary:focus {
+  background-color: #d9dcde;
+}
+
+.c-button--negative {
+  background-color: #ff4d37;
+  color: #fff;
+}
+.c-button--negative:hover {
+  background-color: #f24934;
+}
+.c-button--negative:active {
+  background-color: #e54531;
+}
+.c-button--negative:focus {
+  background-color: #e54531;
+}
+
+.c-button--tonal {
+  background-color: #e8f7ff;
+  color: #1570ff;
+}
+.c-button--tonal:hover {
+  background-color: #dcebf2;
+}
+.c-button--tonal:active {
+  background-color: #d1dee5;
+}
+.c-button--tonal:focus {
+  background-color: #d1dee5;
+}
