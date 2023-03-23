@@ -9,8 +9,8 @@
     <div class="page">
       <section>
         <ul class="l-match-list">
-          <li class="l-match-list__match-item">
-            <div class="c-match-info flex items-center gap-15">
+          <li class="l-match-list__item">
+            <div class="c-match-info flex flex-1 items-center gap-15">
               <time class="c-match-info__time">09:00</time>
               <div class="flex-col gap-5">
                 <div class="c-match-info__title">서울 영등포 더에프 필드 A구장 *주차마감*</div>
@@ -22,10 +22,13 @@
                 </div>
               </div>
             </div>
-            <button type="button" class="c-button c-button--secondary w-20p">마감</button>
+            <div class="l-match-list__l-action-list">
+              <button type="button" class="c-button c-button--secondary">마감</button>
+              <button type="button" class="c-button c-button--secondary">마감</button>
+            </div>
           </li>
 
-          <li class="l-match-list__match-item">
+          <li class="l-match-list__item">
             <div class="c-match-info flex items-center gap-15">
               <time class="c-match-info__time">15:00</time>
               <div class="flex-col gap-5">
@@ -38,10 +41,12 @@
                 </div>
               </div>
             </div>
-            <button type="button" class="c-button c-button--negative w-20p">마감임박</button>
+            <div class="l-match-list__l-action-list">
+              <button type="button" class="c-button c-button--negative">마감임박</button>
+            </div>
           </li>
 
-          <li class="l-match-list__match-item">
+          <li class="l-match-list__item">
             <div class="c-match-info flex items-center gap-15">
               <time class="c-match-info__time">21:00</time>
               <div class="flex-col gap-5">
@@ -55,7 +60,9 @@
                 </div>
               </div>
             </div>
-            <button type="button" class="c-button c-button--primary w-20p">신청가능</button>
+            <div class="l-match-list__l-action-list">
+              <button type="button" class="c-button c-button--primary">신청가능</button>
+            </div>
           </li>
         </ul>
       </section>
